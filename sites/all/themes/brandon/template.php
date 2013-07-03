@@ -110,3 +110,22 @@ function brandon_process_block(&$variables, $hook) {
 function brandon_preprocess_search_block_form(&$vars) {
   $vars['search_form'] = str_replace('type="text"', 'type="search"', $vars['search_form']);
 }
+
+/*
+REMOVES unwanted formats in comment form
+*/
+function brandon_form_comment_form_alter(&$form, &$form_state, &$form_id) {
+  $form['comment_body']['#after_build'][] = 'brandon_customize_comment_form';  
+}
+function brandon_customize_comment_form(&$form) {  
+  $form[LANGUAGE_NONE][0]['format']['#access'] = FALSE; // Note LANGUAGE_NONE, you may need to set your comment form language code instead    
+  return $form;  
+}
+function brandon_form_comment_node_caption_it_form_alter(&$form, &$form_state) {
+  $form['author']['_author'] = FALSE;
+  $form['comment_body']['und']['0']['#title'] = FALSE;
+  $form['comment_body']['und']['0']['#default_value'] = t('Enter in your caption for the cartoon');
+  $form['comment_body']['und']['0']['#required'] = FALSE;
+  $form['actions']['submit']['#value'] = t('Go');
+    //dpm($form);
+}
