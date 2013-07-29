@@ -245,6 +245,8 @@
         
         .field-name-field-other-work-photo-gallery,
         .field-name-field-photo-gallery {margin-bottom: 1em; float: left; width: 100%;}
+        .page-portfo-lio #main .view-portfolio .views-row .field-content {width: 100%; margin: 0;}
+        .page-portfo-lio #main .view-portfolio .views-row h3 {border: none; padding: 10px 0 0;}
         
         	.button,
 			button,
