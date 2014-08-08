@@ -1,0 +1,31 @@
+.row, .body, .container {
+width: 93%;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol {
+width: auto;
+float: none;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+/* Type presets */
+
+body {
+font-size: 16px;
+line-height: 24px;
+}
+body #header h2 {font-size: 55px; line-height: 57px;}
+body #header #site-description {float: left; clear: both; font-size: 19px; line-height: 21px;}
+body #header ul.menu {clear: both; margin: 10px 0 0; padding: 0; float: left;}
+body #header ul.menu li {margin: 0 15px 5px 0;}
+body div#footer ul {float: left;}
+body div#footer ul li {text-align: left;}
+body div#footer ul li a {font-size: 25px;}
+div#side ul.xoxo li#categories-3 ul li {width: 100%; }

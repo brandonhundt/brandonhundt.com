@@ -1,0 +1,9 @@
+body {
+font-size: 0.8em; /* Makes type a bit smaller at 1024 so layout doesn't look unbalanced */
+line-height: 1.5em;	/* As above */
+}
+body #header h2 {font-size: 55px; line-height: 57px;}
+body #header #site-description {clear: both; font-size: 19px; line-height: 21px;}
+body #header ul.menu {padding: 0; margin: 55px 0 0;}
+body #header ul.menu li {margin: 0 0px 5px 15px;}
+body div#footer ul li a {font-size: 25px;}

@@ -1,0 +1,4 @@
+[24-Apr-2013 07:38:07] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home2/brandox0/public_html/rachel/wp-includes/functions.php on line 8
+[16-Jul-2013 13:33:22] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home2/brandox0/public_html/rachel/wp-includes/registration-functions.php on line 7
+[16-Jul-2013 13:33:23] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home2/brandox0/public_html/rachel/wp-includes/registration-functions.php on line 7
+[19-Jul-2013 07:00:33] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home2/brandox0/public_html/rachel/wp-includes/functions.php on line 8

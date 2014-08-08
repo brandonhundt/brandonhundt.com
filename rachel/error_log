@@ -1,0 +1,40 @@
+[25-Nov-2013 00:58:28] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 00:58:37] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 00:59:01] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 00:59:11] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 00:59:15] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 00:59:25] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:00:20] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:00:25] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:00:39] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:02:21] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:02:52] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:03:20] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:04:40] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:07:58] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:09:48] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:09:50] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:15:46] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:15:46] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:30:06] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:31:34] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:41:53] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[25-Nov-2013 01:42:12] PHP Warning:  Illegal offset type in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/includes/shortcodes.php on line 15
+[28-May-2014 14:43:11 America/Denver] PHP Notice:  Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' in /home2/brandox0/public_html/rachel/500.php on line 12
+[28-May-2014 14:43:11 America/Denver] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home2/brandox0/public_html/rachel/500.php on line 12
+[28-May-2014 14:47:47 America/Denver] PHP Notice:  Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' in /home2/brandox0/public_html/rachel/500.php on line 12
+[28-May-2014 14:47:47 America/Denver] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home2/brandox0/public_html/rachel/500.php on line 12
+[29-May-2014 22:42:11 America/Denver] PHP Notice:  Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' in /home2/brandox0/public_html/rachel/500.php on line 12
+[29-May-2014 22:42:11 America/Denver] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home2/brandox0/public_html/rachel/500.php on line 12
+[30-May-2014 08:07:08 America/Denver] PHP Notice:  Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' in /home2/brandox0/public_html/rachel/500.php on line 12
+[30-May-2014 08:07:08 America/Denver] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home2/brandox0/public_html/rachel/500.php on line 12
+[31-May-2014 19:30:44 America/Denver] PHP Notice:  Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' in /home2/brandox0/public_html/rachel/500.php on line 12
+[31-May-2014 19:30:44 America/Denver] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home2/brandox0/public_html/rachel/500.php on line 12
+[31-May-2014 19:31:04 America/Denver] PHP Notice:  Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' in /home2/brandox0/public_html/rachel/500.php on line 12
+[31-May-2014 19:31:04 America/Denver] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home2/brandox0/public_html/rachel/500.php on line 12
+[31-May-2014 19:31:24 America/Denver] PHP Notice:  Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' in /home2/brandox0/public_html/rachel/500.php on line 12
+[31-May-2014 19:31:24 America/Denver] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home2/brandox0/public_html/rachel/500.php on line 12
+[03-Jun-2014 19:39:13 America/Denver] PHP Notice:  Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' in /home2/brandox0/public_html/rachel/500.php on line 12
+[03-Jun-2014 19:39:13 America/Denver] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home2/brandox0/public_html/rachel/500.php on line 12
+[31-Jul-2014 23:33:56 America/Denver] PHP Notice:  Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' in /home2/brandox0/public_html/rachel/500.php on line 12
+[31-Jul-2014 23:33:56 America/Denver] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home2/brandox0/public_html/rachel/500.php on line 12

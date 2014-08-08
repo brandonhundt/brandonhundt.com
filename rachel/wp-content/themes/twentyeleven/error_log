@@ -1,0 +1,5 @@
+[28-Oct-2013 19:12:48] PHP Fatal error:  Call to undefined function  get_header() in /home2/brandox0/public_html/rachel/wp-content/themes/twentyeleven/tag.php on line 10
+[26-Dec-2013 13:35:37] PHP Fatal error:  Call to undefined function  get_header() in /home2/brandox0/public_html/rachel/wp-content/themes/twentyeleven/404.php on line 10
+[24-May-2014 16:35:09 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/brandox0/public_html/rachel/wp-content/themes/twentyeleven/index.php on line 15
+[28-May-2014 13:41:47 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/brandox0/public_html/rachel/wp-content/themes/twentyeleven/tag.php on line 10
+[30-May-2014 08:45:47 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/brandox0/public_html/rachel/wp-content/themes/twentyeleven/404.php on line 10

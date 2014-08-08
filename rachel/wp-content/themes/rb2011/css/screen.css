@@ -1,0 +1,300 @@
+body {
+	background: #f5f5f5;
+	font-size: 110%;
+	line-height: 1.5;
+	color: #666;
+	font-family: "LatoRegular", Tahoma, Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+a, a:link, a:visited {text-decoration: none; color: #4c7da7; font-weight: normal;    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;}
+a:hover, a:active {color: #4b94d4;}
+strong {font-weight: normal; font-family: "LatoBold", "LatoRegular", Tahoma, Helvetica, Arial, sans-serif;}
+
+/* The 1140px Grid by Andy Taylor – http://cssgrid.net – http://www.twitter.com/andytlr – http://www.catchingzebra.com */
+
+.container {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.row {
+width: 100%;
+max-width: 1140px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
+margin-right: 3.8%;
+float: left;
+}
+
+.onecol {
+width: 4.85%;
+}
+
+.twocol {
+width: 13.5%;
+}
+
+.threecol {
+width: 22.15%;
+}
+
+.fourcol {
+width: 30.8%;
+}
+
+.fivecol {
+width: 39.45%;
+}
+
+.sixcol {
+width: 48.1%;
+}
+
+.sevencol {
+width: 56.75%;
+}
+
+.eightcol {
+width: 65.4%;
+}
+
+.ninecol {
+width: 74.05%;
+}
+
+.tencol {
+width: 82.7%;
+}
+
+.elevencol {
+width: 91.35%;
+}
+
+.twelvecol {
+width: 100%;
+float: left;
+}
+
+.last {
+margin-right: 0px;
+}
+
+img, object, embed {
+max-width: 100%;
+height: auto;
+}
+ 
+/* Headings
+============================== */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-family: 'LeagueGothicRegular', Helvetica, Arial, Sans-serif;
+	color: #333;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
+	text-transform: lowercase;
+	margin: 0 0 15px;
+	padding: 0;
+}
+h1, .intro h2 {
+	font-size: 45px;
+	line-height: 45px;
+}
+h2, div#side h3 {
+	font-size: 36px;
+	line-height: 36px;
+}
+h3 {
+	font-size: 33px;
+	line-height: 33px;
+}
+h4 {
+	font-size: 25px;
+	line-height: 25px;
+}
+h5 {
+	font-size: 20px;
+	line-height: 20px;
+}
+h6 {
+	font-size: 18px;
+	line-height: 18px;
+}
+
+/* Font Awesome
+============================== */
+.icon-chevron-right {padding: 0 0 0 5px; font-size: 16px;}
+.icon-chevron-left {padding: 0 5px 0 0; font-size: 16px;}
+.icon-comments,
+.icon-comments-alt {padding: 0 10px 0 0; color: #bbb;}
+.icon-comment {padding: 0 0 0 3px; color: #555;}
+h1 i {color: #bbb; padding: 0 10px 0 0; font-size: 28px;}
+h3 i {color: #bbb; font-size: 24px;}
+
+.widget_extended_comments {}
+/* Header
+============================== */
+#h-wrap {background: #333; border-bottom: 1px solid #000; margin: 0;}
+#header {position: relative;}
+#header h2 {padding: 3px 0 0; text-align: left; font-size: 70px; line-height: 72px; float:left; color: #eee; text-transform: lowercase; text-shadow: 1px 1px 0 #000; margin: 0;}
+#header h2 a {color: #eee;}
+#header h2 a:hover, #header h2 a:active {color: #4b94d4;}
+#header #site-description {clear: both; padding: 0 0 10px; font-size: 24px; text-shadow: 1px 1px 0 #000; text-transform: lowercase; font-weight: light; font-family: Georgia, serif;}
+#header #site-description span {color: #ccc;}
+#header #site-description span span {font-style: italic;}
+#header #site-description span span.green, .category-rachel h1 {color: #6c9631;}
+#header #site-description span span.red, .category-brandon h1 {color: #b83d3d;}
+#header #site-description span span.white {color: #eee;}
+
+/* Main navigation
+============================== */
+#header ul.menu {margin: 75px 0 0; padding: 0; float: right;}
+#header ul.menu li {margin: 0; padding: 0; display: inline; float: left; margin: 0 0 5px 15px;}
+#header ul.menu li a {color: #ddd; font-size: 28px; text-shadow: 1px 1px 0 #000; text-transform: lowercase; font-family: 'LeagueGothicRegular', Helvetica, Arial, Sans-serif;}
+#header ul.menu li.current_page_item a {color: #eee;}
+#header ul.menu li a:hover, #header ul.menu li a:active {color: #4b94d4;}
+
+/* Main
+============================= */
+div#main {min-height: 1185px;}
+ul.xoxo li.widget_search input#searchsubmit, div#main div#comments input#submit, div#main div.wpcf7 input.wpcf7-submit {
+	background: #2a5173; 
+	color: #ddd; 
+	font-size: 18px; 
+	border: none;
+	font-family: 'LeagueGothicRegular', Helvetica, Arial, Sans-serif;
+	cursor: pointer;
+	width: auto;
+	margin: 0;
+	padding: 0 3px;
+}
+ul.xoxo li.widget_search input#searchsubmit:hover, ul.xoxo li.widget_search input#searchsubmit:active,
+div#main div#comments input#submit:hover, div#main div#comments input#submit:active,
+div#main div.wpcf7 input.wpcf7-submit:hover, div#main div.wpcf7 input.wpcf7-submit:active {background: #4b94d4; color: #eee;}
+
+div#main div.entry-meta {float: left; width: 100%;}
+div#main div.metadata {float: left;}
+div#main div.fb-like {float: left; margin: 2px 0 0 3px;}
+
+div#c-contain {/*background: url(../images/bg_c-contain.jpg) no-repeat top center;*/ background: #f5f5f5 url(../images/subtle_dots.png) repeat left top;}
+div#c-contain-bot {/*background: url(../images/bg_c-contain-bot.jpg) no-repeat bottom center;*/ padding: 30px 20px;}
+div#main div#content,
+div#main div#left,
+div#main div#right {/*padding: 30px 0 0;*/ /*border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;*/}
+div#main div#left p.postmetadata,
+div#main div#right p.postmetadata {margin: 0;}
+div#main strong {color: #444;}
+
+div#main p.postmetadata, div#main .entry-utility, div#main .entry-meta, div#main div.navigation, div#main div#comments ol li .commentmetadata, div#main div#comments ol li .vcard, div.intro a {line-height: 24px; font-family: 'LeagueGothicRegular', Helvetica, Arial, Sans-serif; font-size: 18px; color: #555;/* text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);*/ text-transform: lowercase;}
+div#main p.postmetadata span {color: #333;}
+div#main .entry-utility, div#main .entry-meta, div#main div.navigation {margin: 0 0 15px; font-size: 20px;}
+div#main .entry-utility {clear: both;}
+div#main .entry-utility div.share {margin: 10px 0 0; padding: 10px 0 0; border-top: 1px solid #ccc;}
+div#main .entry-utility div.share a.a2a_dd {float: right;} 
+div#main div#comments ol li .vcard img {margin: 0 10px 0 0;}
+div#main div#comments ol li .vcard {font-size: 26px;}
+div#main div#comments ol li .vcard cite {font-style: normal; color: #333;}
+div.intro a {color: #2a5173; font-size: 20px;}
+div.intro a:hover, div.intro a:active {color: #4b94d4;}
+/*div#main div.entry-content a {color: #4b94d4;}
+div#main div.entry-content a:hover {color: #2a5173;}*/
+
+div#main div.entry-content ul, div#main div.entry-content ol, div#main div.entry-content blockquote {margin: 0 0 1em; /*padding: 15px 30px; background: #eee; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; color: #444;*/}
+div#main div.entry-content blockquote {padding: 0 30px; font-style: italic;} 
+div#main div.entry-content ul li, div#main div.entry-content ol li {margin: 0 0 3px; list-style-type: square;}
+
+div#main p {margin: 0 0 1.5em;}
+
+.home div.intro {position: relative; padding: 0 0 20px;}
+.home div.intro.rachel h2 {color: #6c9631; margin: 5px 0;}
+.home div.intro.brandon h2 {color: #b83d3d; margin: 5px 0;}
+.home div.post {border-top: 1px solid #ccc; padding: 30px 0;}
+div#main div#comments {padding: 30px 0 0; border-top: 1px solid #ccc;}
+div#main div#comments ol {margin: 15px 0 30px; padding: 0; border-top: 1px solid #ccc;}
+div#main div#comments ol li {list-style-type: none; border-bottom: 1px solid #ccc; padding: 15px 15px 5px; font-size: 14px; line-height: 20px;}
+div#main div#comments ol li.odd {background: #eee;}
+div#main div#comments ol li.even {background: #fff;}
+div#main div#comments label, div#main div#comments span.required {line-height: 24px; font-size: 20px; font-family: 'LeagueGothicRegular', Helvetica, Arial, Sans-serif; color: #555; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8); text-transform: lowercase; }
+div#main div#comments span.required {position: absolute;}
+div#main div#comments label {width: 70px; float: left;}
+div#main div#comments input, div#main div#comments textarea {margin: 0 0 0 10px; background: #f5f5f5; border: 1px solid #ccc; padding: 3px; font-size: 14px; color: #555;}
+div#main div#comments input:focus, div#main div#comments input:active,
+div#main div#comments textarea:focus, div#main div#comments textarea:active,
+ul.xoxo li.widget_search input#s:focus, ul.xoxo li.widget_search input#s:active
+{background: #fff; border: 1px solid #4b94d4;  }
+div#main p.form-allowed-tags {font-size: 13px; line-height: 20px;}
+
+.archive div#main div.post, .search div#main div.post {border-bottom: 1px solid #ccc; padding: 15px 0;}
+
+.home div.intro img, div#main img.wp-post-image {
+	-moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+	border:1px solid #eee;
+	margin: 0;
+}
+div#main img.wp-post-image {margin: 0 0 30px;}
+div#main a img {outline: none; text-decoration: none; border: none;}
+div#main .alignleft, div#main img {margin: 0 15px 15px 0; float: left;}
+div#main img.ajax-loader {float: none;}
+div#main .alignright {float: right; margin: 0 0 15px 15px;}
+div#main p.wp-caption-text {font-size: 13px; line-height: 20px;}
+
+div#main .alignleft, div#main .alignright img {margin: 0;}
+
+div#main div.wpcf7 p {line-height: 24px; font-size: 20px; font-family: 'LeagueGothicRegular', Helvetica, Arial, Sans-serif; color: #555; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8); text-transform: lowercase; }
+div#main div.wpcf7 input.wpcf7-text, div#main div.wpcf7 textarea { background: #f5f5f5; border: 1px solid #ccc; padding: 3px; font-size: 14px; color: #555;}
+div#main div.wpcf7 input.wpcf7-text:active, div#main div.wpcf7 input.wpcf7-text:focus,
+div#main div.wpcf7 textarea:active, div#main div.wpcf7 textarea:focus {background: #fff; border: 1px solid #4b94d4;}
+div#main div.wpcf7 input.wpcf7-submit {}
+
+div#main #nav-below {clear: both;}
+
+
+/* Widgets
+============================== */
+div#side {/*border-top: 1px solid #ccc;*/}
+div#xtra {background: #eee; border-top: 1px solid #ccc; }
+div#footer-widget-area {float: left; width: 100%; padding: 30px 0; }
+ul.xoxo {margin: 0; padding: 0;}
+ul.xoxo li {margin: 0; padding: 0; list-style-type: none;}
+ul.xoxo li ul {margin: 0; padding: 0;}
+ul.xoxo li ul li {margin: 0; padding: 0;}
+div#side ul.xoxo li {
+	border: 1px solid #DDD;
+	padding: 20px 5%;
+	background: #EEE;
+	font-size: 16px;
+	margin: 0 0 20px;
+	line-height: 22px;
+	float: left; 
+	width: 90%;
+}
+div#side ul.xoxo li h3, div#footer-widget-area ul.xoxo li h3 {margin: 0 0 5px; font-size: 30px; line-height: 30px;}
+div#side ul.xoxo li ul, div#footer-widget-area ul.xoxo li ul {margin: 0; padding: 0;}
+div#side ul.xoxo li ul li, div#footer-widget-area ul.xoxo li ul li {padding: 0; margin: 0 0 2px 15px; list-style-type: square; border: none;}
+ul.xoxo li ul li blockquote {margin: 0; padding: 0; text-align: left;}
+
+div#footer-widget-area ul.xoxo li.widget_search {margin: 0 0 15px;}
+ul.xoxo li.widget_search label {display: none;}
+ul.xoxo li.widget_search input#s {background: #f5f5f5; border: 1px solid #ccc; padding: 3px; margin: 0 0 5px; font-size: 14px; color: #555; }
+
+div#side ul.xoxo li#categories-3 {float: left; margin: 0 0 20px;}
+div#side ul.xoxo li#categories-3 ul {float: left; width: 100%; margin: 0 0 0 20px;}
+div#side ul.xoxo li#categories-3 ul li {width: 40%; padding: 0; margin: 0; float: left;}
+
+/* Footer
+============================== */
+div#fwrap {background: #333; border-top: 2px solid #000; padding: 30px 20px 20px;}
+div#footer p {margin: 0 0 10px; color: #ccc; font-size: 14px;}
+div#footer a {color: #eee; font-style: italic;}
+div#footer a:hover {color: #4b94d4;}
+div#footer ul {float: right; margin: 0; padding: 0;}
+div#footer ul li {list-style-type: none; text-align: right;}

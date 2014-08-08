@@ -1,0 +1,1 @@
+[27-Feb-2014 13:15:42 America/Denver] PHP Fatal error:  Call to undefined function plugin_basename() in /home2/brandox0/public_html/rachel/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 35
