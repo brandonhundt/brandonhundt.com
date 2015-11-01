@@ -9,8 +9,8 @@
 
 get_header(); ?>
 
-			<div id="main" class="eightcol">
-			<div id="content">
+			<div id="main">
+			<div id="content" class="single-container">
 
 
 				<h1 class="page-title"><i class="icon-bookmark"></i><?php
@@ -30,6 +30,4 @@ get_header(); ?>
 
 			</div><!-- #content -->
 		</div><!-- #container -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

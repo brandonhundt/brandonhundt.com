@@ -16,15 +16,36 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('WP_CACHE', true); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', '/home2/brandox0/public_html/rachel/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
-define('DB_NAME', 'brandox0_rachel');
+//define('WP_CACHE', true); //Added by WP-Cache Manager
+//define( 'WPCACHEHOME', '/home2/brandox0/public_html/rachel/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+//define('DB_NAME', 'brandox0_rachel');
 
 /** MySQL database username */
-define('DB_USER', 'brandox0_ruser');
+//define('DB_USER', 'brandox0_ruser');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'z9WW7+MAmN@x');
+//define('DB_PASSWORD', 'z9WW7+MAmN@x');
+
+/** MySQL hostname */
+//define('DB_HOST', 'localhost');
+
+/** Database Charset to use in creating database tables. */
+//define('DB_CHARSET', 'utf8');
+
+/** The Database Collate type. Don't change this if in doubt. */
+//define('DB_COLLATE', '');
+
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define('WP_CACHE', false); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', '/home2/brandox0/public_html/rachel/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+define('DB_NAME', 'rachelbrandon');
+
+/** MySQL database username */
+define('DB_USER', 'root');
+
+/** MySQL database password */
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

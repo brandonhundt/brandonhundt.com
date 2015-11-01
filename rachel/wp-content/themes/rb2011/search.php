@@ -9,8 +9,8 @@
 
 get_header(); ?>
 
-			<div id="main" class="eightcol">
-			<div id="content">
+			<div id="main">
+			<div id="content" class="single-container">
 
 
 <?php if ( have_posts() ) : ?>
@@ -33,6 +33,4 @@ get_header(); ?>
 <?php endif; ?>
 			</div><!-- #content -->
 		</div><!-- #container -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

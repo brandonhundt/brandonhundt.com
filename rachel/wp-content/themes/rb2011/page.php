@@ -14,8 +14,8 @@
 
 get_header(); ?>
 
-			<div id="main" class="eightcol">
-			<div id="content">
+			<div id="main">
+			<div id="content" class="single-container">
            			<?php
 					// Check if this is a post or page, if it has a thumbnail, and if it's a big one
 					if ( is_singular() &&
@@ -50,6 +50,4 @@ get_header(); ?>
 
 			</div><!-- #content -->
 		</div><!-- #container -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

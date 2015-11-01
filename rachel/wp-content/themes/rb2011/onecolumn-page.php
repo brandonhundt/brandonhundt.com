@@ -14,8 +14,8 @@
 
 get_header(); ?>
 
-			<div id="main" class="eightcol">
-			<div id="content">
+			<div id="main">
+			<div id="content" class="single-container">
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
@@ -34,5 +34,4 @@ get_header(); ?>
 
 			</div><!-- #content -->
 		</div><!-- #container -->
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

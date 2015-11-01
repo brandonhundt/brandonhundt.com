@@ -21,11 +21,20 @@ body {
 font-size: 16px;
 line-height: 24px;
 }
-body #header h2 {font-size: 55px; line-height: 57px;}
-body #header #site-description {float: left; clear: both; font-size: 19px; line-height: 21px;}
-body #header ul.menu {clear: both; margin: 10px 0 0; padding: 0; float: left;}
-body #header ul.menu li {margin: 0 15px 5px 0;}
 body div#footer ul {float: left;}
 body div#footer ul li {text-align: left;}
 body div#footer ul li a {font-size: 25px;}
 div#side ul.xoxo li#categories-3 ul li {width: 100%; }
+
+.single-header,
+.entry-content,
+.entry-utility {padding: 0 15px;}
+
+section#main p {
+  font-size: 20px;
+  line-height: 1.65em;
+}
+
+.single-header h1.entry-title {
+	font-size: 40px;
+}

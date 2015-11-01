@@ -20,12 +20,6 @@
 ?>
 
 <?php /* Display navigation to next/previous pages when applicable */ ?>
-<?php if ( $wp_query->max_num_pages > 1 ) : ?>
-	<div id="nav-above" class="navigation">
-		<div class="nav-previous"><?php next_posts_link( __( '<i class="icon-chevron-left"></i> Older posts', 'twentyten' ) ); ?></div>
-		<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <i class="icon-chevron-right"></i>', 'twentyten' ) ); ?></div>
-	</div><!-- #nav-above -->
-<?php endif; ?>
 
 <?php /* If there are no posts to display, such as an empty archive page */ ?>
 <?php if ( ! have_posts() ) : ?>
@@ -166,11 +160,3 @@
 	<?php endif; // This was the if statement that broke the loop into three parts based on categories. ?>
 
 <?php endwhile; // End the loop. Whew. ?>
-
-<?php /* Display navigation to next/previous pages when applicable */ ?>
-<?php if (  $wp_query->max_num_pages > 1 ) : ?>
-				<div id="nav-below" class="navigation">
-					<div class="nav-previous"><?php next_posts_link( __( '<i class="icon-chevron-left"></i> Older posts', 'twentyten' ) ); ?></div>
-					<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <i class="icon-chevron-right"></i>', 'twentyten' ) ); ?></div>
-				</div><!-- #nav-below -->
-<?php endif; ?>

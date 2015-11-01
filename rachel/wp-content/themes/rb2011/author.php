@@ -9,8 +9,8 @@
 
 get_header(); ?>
 
-			<div id="main" class="eightcol">
-			<div id="content">
+			<div id="main">
+			<div id="content" class="single-container">
 
 
 <?php
@@ -56,6 +56,4 @@ if ( get_the_author_meta( 'description' ) ) : ?>
 ?>
 			</div><!-- #content -->
 		</div><!-- #container -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
