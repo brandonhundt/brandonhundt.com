@@ -169,7 +169,7 @@ h3 i {color: #bbb; font-size: 24px;}
 .widget_extended_comments {}
 /* Header
 ============================== */
-#h-wrap {border-bottom: 1px solid #ddd; margin: 0; background: #fdfdfd;}
+#h-wrap {border-bottom: 1px solid #ddd; margin: 0; background: #fdfdfd; position: relative; z-index: 30;}
 #header {position: relative;}
 #header h2 {
 		font-family: 'LatoLight', Helvetica, Arial, Sans-serif;
@@ -241,7 +241,7 @@ h3 i {color: #bbb; font-size: 24px;}
     border-bottom: 1px solid #ddd;
     text-shadow: 0 1px 1px #000;
     background: #000;
-    z-index: -2;
+    z-index: 0;
 }
 
 .featured-post:after,
@@ -283,7 +283,9 @@ h3 i {color: #bbb; font-size: 24px;}
 
 .entry-content {
 	background: #fdfdfd;
-	padding-top: 1.5em;
+	padding: 1.5em 0;
+	position: relative; 
+	z-index: 10;
 }
 
 .post-categories {
@@ -462,6 +464,8 @@ section#main .entry-utility div.share a.a2a_dd {float: right;}
 	background: #fafafa;
 	float: left;
 	width: 100%;
+	position: relative; 
+	z-index: 10;
 }
 
 .comments .single-container {
@@ -602,6 +606,9 @@ div#side ul.xoxo li#categories-3 ul li {width: 40%; padding: 0; margin: 0; float
 	border-top: 1px solid #ddd;
 	padding: 15px 0;
 	font-size: 16px;
+	background: #fdfdfd;
+	position: relative; 
+	z-index: 30;
 }
 #footer p {font-family: 'Enriqueta', georgia, serif;}
 #footer a {font-weight: bold;}

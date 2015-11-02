@@ -49,6 +49,14 @@ section#main p {
 	width: 100%;
 }
 
+div.single-container {
+	width: 92%;
+}
+
+div.single-header-content.single-container {
+	width: 100%;
+}
+
 article.featured-post h2.post-title {
 	font-size: 28px;
 }
