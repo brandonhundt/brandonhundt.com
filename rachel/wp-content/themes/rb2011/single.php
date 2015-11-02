@@ -16,15 +16,24 @@ get_header(); ?>
 					if ( is_singular() && has_post_thumbnail( $post->ID )) :
 					   $thumb_id = get_post_meta($post->ID, '_thumbnail_id', true);
 					   $thumb_url = wp_get_attachment_url($thumb_id); ?>
+					   	<div class="single-header-bg"></div>	
 							<style type="text/css">
-							.single-header { 
+							.single-header-bg { 
 							  background: url("<?php echo $thumb_url ;?>") no-repeat center center fixed #000; 
 							  -webkit-background-size: cover;
 							  -moz-background-size: cover;
 							  -o-background-size: cover;
 							  background-size: cover;
+							  opacity: 0.5;
+							  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+							  position: fixed;
+							  width: 100%;
+							  height: 100%;
+							  top: 0;
+							  left: 0;
+							  z-index: -1;
 							}
-						</style>	
+						</style>
 					<?php endif; ?>
 					<div class="single-header-content single-container">
 						<div class="v-center">

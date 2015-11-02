@@ -488,4 +488,3 @@ $arg['title_reply'] = __('<i class="icon-comments-alt"></i>Submit a comment:');
 return $arg;
 }
 add_filter('comment_form_defaults','comment_reform');
-

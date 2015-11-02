@@ -104,14 +104,23 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Enriqueta", Georgia, serif;
 	font-weight: 700;
 }
-h1, .intro h2 {
+h1 {
 	font-size: 2.5em;
-	margin: 0 0 0.5em;
+	margin: 1em 0;
+}
+.page h1 {
+	margin: 1em 0 0;
 }
 h1.entry-title {
 	color: #fff;
 	text-shadow: 0 1px 1px #000;
+	margin: 0 0 0.5em;
 }
+.intro h2 {
+	font-size: 2em;
+	margin: 5px 0 0.5em;
+}
+
 h2, div#side h3 {
 	font-size: 36px;
 }
@@ -160,7 +169,7 @@ h3 i {color: #bbb; font-size: 24px;}
 .widget_extended_comments {}
 /* Header
 ============================== */
-#h-wrap {border-bottom: 1px solid #ddd; margin: 0;}
+#h-wrap {border-bottom: 1px solid #ddd; margin: 0; background: #fdfdfd;}
 #header {position: relative;}
 #header h2 {
 		font-family: 'LatoLight', Helvetica, Arial, Sans-serif;
@@ -212,12 +221,16 @@ h3 i {color: #bbb; font-size: 24px;}
 .featured-post h2.post-title {
 	margin: 0 0 .25em;
 }
+
 .featured-post h2.post-title a {
 	color: #fff;
 	margin: 0;
 	font-family: "Enriqueta", Georgia, serif;
   font-weight: 700;
   text-shadow: 0 1px 1px #000;
+}
+.featured-post h2.post-title a:hover {
+	color: #4c7da7;
 }
 .featured-post .metadata {color: #fff;}
 
@@ -227,6 +240,8 @@ h3 i {color: #bbb; font-size: 24px;}
     position: relative;
     border-bottom: 1px solid #ddd;
     text-shadow: 0 1px 1px #000;
+    background: #000;
+    z-index: -2;
 }
 
 .featured-post:after,
@@ -278,7 +293,7 @@ h3 i {color: #bbb; font-size: 24px;}
 .post-categories li {
 	display: inline;
 	list-style-type: none;
-	margin: 0 5px 0 0;
+	margin: 0;
 	font-family: "Enriqueta", Georgia, serif;
 }
 .metadata,
@@ -291,6 +306,7 @@ h3 i {color: #bbb; font-size: 24px;}
 	color: #fff;
 	font-weight: 700;
 	border-bottom: 1px dotted #fff;
+	margin-right: 5px;
 }
 
 #main p.post-meta {
@@ -309,11 +325,36 @@ h3 i {color: #bbb; font-size: 24px;}
 	border-bottom: none;
 }
 
+.archive .post {
+	padding: 1em 0 0;
+	border-top: 1px dotted #ddd;
+}
+
+.archive .post h2 {
+	font-weight: 700;
+	margin: 0 0 .5em;
+}
+
+.archive .post h2 a {font-weight: 700;}
+
+.archive .post .entry-meta {
+	margin: 0 0 1em;
+	font-family: 'Enriqueta', Georgia, serif;
+}
+.archive .post .more-link {
+  display: block; 
+  width: 100%;
+  margin: 1em 0;
+  font-family: 'Enriqueta', Georgia, serif;
+}    
+
 ul.xoxo li.widget_search input#searchsubmit, section#main div#comments input#submit, section#main div.wpcf7 input.wpcf7-submit {
 	background: #4c7da7; 
 	color: #fff; 
 	font-size: 18px; 
 	border: none;
+	border-radius: 5px;
+	border-bottom: 1px solid darkblue;
 	font-family: 'Enriqueta', Helvetica, Arial, Sans-serif;
 	cursor: pointer;
 	width: auto;
@@ -341,14 +382,46 @@ section#main div#left p.postmetadata,
 section#main div#right p.postmetadata {margin: 0;}
 section#main strong {color: #444;}
 
-section#main p.postmetadata, section#main .entry-utility, section#main .entry-meta, section#main div.navigation, div.intro a {line-height: 24px; font-family: 'Enriqueta', Helvetica, Arial, Sans-serif; font-size: 18px; color: #555;/* text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);*/ }
+section#main p.postmetadata, section#main .entry-utility, section#main .entry-meta, section#main div.navigation {line-height: 24px; font-family: 'Enriqueta', Helvetica, Arial, Sans-serif; font-size: 18px; color: #555;/* text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);*/ }
 section#main p.postmetadata span {color: #333;}
 section#main .entry-utility, section#main .entry-meta, section#main div.navigation {margin: 0 0 15px; font-size: 20px;}
 section#main .entry-utility {clear: both;}
 section#main .entry-utility div.share {margin: 10px 0 0; padding: 10px 0 0; border-top: 1px solid #ccc;}
 section#main .entry-utility div.share a.a2a_dd {float: right;} 
-div.intro a {color: #2a5173; font-size: 20px;}
-div.intro a:hover, div.intro a:active {color: #4b94d4;}
+
+#main .intro img {
+	width: 100%;
+}
+
+#main .intro p {
+	font-size: 18px;
+	margin: 0 0 1em;
+}
+
+#main .intro .button {
+  background: #b83d3d;
+  padding: 10px 0 5px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid darkred;
+  color: white;
+  border-radius: 5px;
+  margin: 0 0 1.5em;
+  float: left;
+
+}
+
+#main .intro.rachel .button {
+	background: #6c9631;
+	border-bottom: 1px solid darkgreen;
+}
+
+#main .intro.rachel .button:hover,
+#main .intro .button:hover {
+	background: #4c7da7;
+	border-bottom: 1px solid darkblue;
+}
 
 #main p {
 	margin: 0 0 1.5em;
@@ -373,8 +446,8 @@ div.intro a:hover, div.intro a:active {color: #4b94d4;}
 }
 
 .home div.intro {position: relative; padding: 0 0 20px;}
-.home div.intro.rachel h2 {color: #6c9631; margin: 5px 0;}
-.home div.intro.brandon h2 {color: #b83d3d; margin: 5px 0;}
+.home div.intro.rachel h2 {color: #6c9631; }
+.home div.intro.brandon h2 {color: #b83d3d; }
 .home article.post {border-top: 1px solid #ccc; padding: 30px 0;}
 
 #respond {
@@ -473,7 +546,6 @@ section#main p.form-allowed-tags {font-size: 13px; line-height: 20px;}
 	font-family: 'Enriqueta', georgia, serif;
 }
 .archive section#main div.post, .search section#main article.post {border-bottom: 1px solid #ccc; padding: 15px 0;}
-
 
 section#main img.wp-post-image {margin: 0 0 30px;}
 section#main a img {outline: none; text-decoration: none; border: none;}

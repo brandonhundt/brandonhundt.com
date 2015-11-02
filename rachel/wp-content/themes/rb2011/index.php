@@ -22,8 +22,8 @@ get_header(); ?>
       <div class="intro brandon">
         <img src="/rachel/wp-content/themes/rb2011/images/img_brandon-home.jpg" alt="Brandon" />   
         <h2><span>Being</span> Brandon</h2>
-        <p>You'll typically find Brandon at the intersection of <a href="/category/design">Design</a>, <a href="/category/geography">Geography</a>, and <a href="/category/sports">Sports</a> (ahem <a href="/tags/flags">Flags</a>). Brandon works for Public Radio International and has <a href="http://www.pri.org/people/brandon-hundt">contributed to PRI.org</a>.<br />
-        <a href="/category/brandon">See His Archive<i class="icon-chevron-right"></i></a></p>
+        <p>You'll typically find Brandon exploring the intersection of <a href="/category/design">Design</a>, <a href="/category/geography">Geography</a>, and <a href="/category/sports">Sports</a> (ahem <a href="/tags/flags">Flags</a>). Brandon works for Public Radio International and has <a href="http://www.pri.org/people/brandon-hundt">contributed to PRI.org</a>.</p>
+        <a class="button" href="/category/brandon">Brandon's Archive <i class="icon-chevron-right"></i></a>
       </div><!--/intro-->
       <?php $my_query = new WP_Query('category_name=Brandon&posts_per_page=5');
         while ($my_query->have_posts()) : $my_query->the_post();
@@ -44,7 +44,8 @@ get_header(); ?>
       <div class="intro rachel">
         <img src="/rachel/wp-content/themes/rb2011/images/img_rachel-home.jpg" alt="Rachel" />   
         <h2><span>Re:</span>Rachel</h2>
-        <p>Rachel now finds herself 'in between' professional gigs. In the meantime, she's completed a graduate degree and is figuring out first hand what being a stay at home parent means...<br /><a href="/category/rachel">See Her Archive<i class="icon-chevron-right"></i></a></p> 
+        <p>Rachel now finds herself 'in between' professional gigs. In the meantime, she's completed a graduate degree and is figuring out first hand what being a stay at home parent means...</p>
+        <a class="button" href="/category/rachel">Rachel's Archive<i class="icon-chevron-right"></i></a> 
       </div><!--/intro-->
       <?php $my_query = new WP_Query('category_name=Rachel&posts_per_page=5');
         while ($my_query->have_posts()) : $my_query->the_post();
@@ -61,11 +62,12 @@ get_header(); ?>
       </article>
       <?php endwhile; ?>
     </article>
-  <?php else : ?>
-    <h2 class="center">Not Found</h2>
-    <p class="center">Sorry, but you are looking for something that isn't here.</p>
-    <?php get_search_form(); ?>
-  <?php endif; ?>
+    <?php else : ?>
+      <h2 class="center">Not Found</h2>
+      <p class="center">Sorry, but you are looking for something that isn't here.</p>
+      <?php get_search_form(); ?>
+    <?php endif; ?>
+    </div>
   </div>
 </div><!-- #main --> 
 <?php get_footer(); ?>

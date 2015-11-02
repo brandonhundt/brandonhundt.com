@@ -6,3 +6,7 @@ body div#footer ul li a {font-size: 25px;}
 .single-header,
 .entry-content,
 .entry-utility {padding: 0 15px;}
+
+article.featured-post h2.post-title {
+	font-size: 28px;
+}
