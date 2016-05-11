@@ -39,6 +39,8 @@ section#main p {
 	font-size: 40px;
 }
 
+#h-wrap.container {padding: 0; width: 100%;}
+
 .home #main div.container {
 	margin: 1em auto;
   padding: 0;
@@ -63,4 +65,9 @@ article.featured-post h2.post-title {
 #fwrap.container {
 	padding: 15px 0;
 	width: 100%;
+}
+img.alignleft,
+img.alignright {
+	float: left;
+	margin: 0 0 1em;
 }
